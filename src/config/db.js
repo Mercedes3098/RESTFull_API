@@ -5,6 +5,6 @@ export const pool = mysql.createPool({
     user: "root",
     password: "admin",
     database: "biblioteca",
-    port: 3306,
+    port: 3300,
     waitForConnections: true,
 })
